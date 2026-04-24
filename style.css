@@ -10,6 +10,7 @@ body {
   color: #2d3436;
 }
 
+/* NAVBAR */
 nav {
   background-color: #2d3436;
   padding: 15px;
@@ -28,6 +29,7 @@ nav a:hover {
   color: #00cec9;
 }
 
+/* HEADER */
 header {
   text-align: center;
   padding: 50px 20px;
@@ -41,6 +43,7 @@ header img {
   width: 120px;
 }
 
+/* SECTIONS */
 section {
   background: white;
   margin: 20px auto;
@@ -51,14 +54,17 @@ section {
   box-shadow: 0 5px 15px rgba(0,0,0,0.05);
 }
 
+/* TITRES */
 h2 {
   margin-bottom: 10px;
 }
 
+/* LIST */
 ul {
   padding-left: 20px;
 }
 
+/* PROJECTS */
 .project {
   margin-bottom: 15px;
 }
@@ -69,15 +75,15 @@ ul {
   font-weight: bold;
 }
 
+/* BUTTON */
 .btn {
   display: inline-block;
   margin-top: 15px;
   padding: 10px 20px;
   background-color: #00b894;
   color: white;
-  border: none;
+  text-decoration: none;
   border-radius: 6px;
-  cursor: pointer;
   transition: 0.3s;
 }
 
