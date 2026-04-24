@@ -20,6 +20,10 @@
   <h1>Walid Boukherrouba</h1>
   <p>Junior Web Developer</p>
   <img src="https://i.pravatar.cc/150" alt="profile">
+
+  <button onclick="showMessage()" class="btn">
+    Contact Me
+  </button>
 </header>
 
 <section id="about">
@@ -45,7 +49,7 @@
 
   <div class="project">
     <h3>Portfolio Website</h3>
-    <p>Personal website built with HTML, CSS and deployed on GitHub.</p>
+    <p>Personal website built with HTML, CSS and JavaScript.</p>
     <a href="https://walidboukherrouba.github.io/portfolio/" target="_blank">
       View Project
     </a>
@@ -70,10 +74,20 @@
     </a>
   </p>
 
-  <a href="mailto:boukherrouba.walid@gmail.com" class="btn">
-    Contact me
-  </a>
+  <button onclick="changeColor()" class="btn">
+    Change Background
+  </button>
 </section>
+
+<script>
+function showMessage() {
+  alert("Thanks for visiting my portfolio!");
+}
+
+function changeColor() {
+  document.body.style.backgroundColor = "#dfe6e9";
+}
+</script>
 
 </body>
 </html>
